@@ -1,0 +1,26 @@
+.postGrid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: auto;
+}
+
+:global(.postItem:nth-child(7n + 1)) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+:global(.postItem:nth-child(7n + 2)),
+:global(.postItem:nth-child(7n + 3)) {
+    grid-row: span 1;
+}
+
+:global(.postItem:nth-child(7n + 4)),
+:global(.postItem:nth-child(7n + 5)) {
+    grid-row: span 2;
+}
+
+:global(.postItem:nth-child(7n + 6)) {
+    grid-row: span 1;
+}

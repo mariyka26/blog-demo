@@ -1,0 +1,32 @@
+.topBar {
+    color: white;
+    padding: 0 12px;
+    display: flex;
+    gap: 18px;
+    width: 215px;
+    justify-content: flex-end;
+    // border: 1px solid #4b7eff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #7aa0fe;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.username {
+    font-weight: 600;
+    width: 140px;
+}
